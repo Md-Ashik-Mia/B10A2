@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +14,10 @@ body{
 .button{
     background-color: transparent;
     color: #ffffff;
-    font-size: 10px;
-    padding: 5px 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
 }
 .button:hover {
     background-color: #E6533C;
@@ -46,7 +51,38 @@ nav{
 }
 
 /* header parts ends here  */
+/* banner parts starts here  */
+.banner{
+    margin-top: 50px;
+}
+.bannerleft h1{
+  margin: 15px 0;
+}
 
+.bannerleftpara{
+    font-size: 10px;
+    color: rgb(91, 89, 89);
+    margin-bottom: 15px;
+}
+
+.shape{
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+}
+
+.bannerright{
+    background-image: url("./images/Images\ 2.png");
+    width: 359px;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+/* banner parts ends here */
 
 
 
@@ -68,8 +104,13 @@ nav{
         background-color: #000000;
         color: #ffffff;
     }
-
-
+    .button:hover {
+        background-color: #E6533C;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
 
     .left{
         font-size: 30px;
@@ -100,5 +141,44 @@ nav{
         border: 1px solid rgb(46, 46, 48);
         border-radius:20px ;
     }
+
+
+    /* banner section starts here  */
+ 
+    .banner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .div1{
+        width: 193px;
+        height: 98px;
+background-color: gray;
+        opacity: 0.5;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: left;
+        padding: 20px 20px;
+        border-radius: 20px;
+    }
+
+.div2{
+
+    width: 193px;
+    height: 98px;
+    background-color: gray;
+        opacity: 0.5;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: left;
+        padding: 20px 20px;
+        border-radius: 20px;
+}
+    /* banner section ends here  */
+
+
+
 
 }
