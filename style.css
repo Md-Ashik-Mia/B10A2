@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.button{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px 10px;
+}
+.button:hover {
+    background-color: #E6533C;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+/* header parts starts here  */
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.left{
+    color: #E6533C;
+}
+.right{
+    
+}
+.mobilehide{
+    display: none;
+}
+
+/* header parts ends here  */
+
+
+
+
+
+
+/* CODE FOR MOBILE VIEW  */
+
+/* CODE FOR DESKTOP VIEW  */
+
+
+@media (min-width: 426px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+
+
+    .left{
+        font-size: 30px;
+    }
+    .mobilehide {
+        display: flex;
+    }
+    .mobilehide li{
+        list-style: none;
+        margin-left: 2px;
+        padding: 5px 0;
+
+    }
+    .mobilehide li a{
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px 20px;
+    }
+    .mobilehide li a:hover{
+        background-color: #E6533C;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .desktophide{
+        display: none;
+    }
+    .right{
+        border: 1px solid rgb(46, 46, 48);
+        border-radius:20px ;
+    }
+
+}
