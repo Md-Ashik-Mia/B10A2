@@ -183,8 +183,90 @@ left: -4%;
     margin-top: 10px;
     text-align: center;
 }
+.event p{
+    
+    text-align: center;
+}
+
+.extramilecontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(34, 34, 34,0.5);
+  border-radius: 20px;
+
+ 
+}
+.extramile{
+    min-height: 371px;
+}
+.extramilecontent{
+
+    padding: 1rem;
+}
+.extramilecontent h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.extramilecontent p{
+    font-size: 1.2rem;
+    color: rgb(108, 108, 108);
+    margin-bottom: 10px;
+}
+
+.run img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transform: scale(0.8);
+}   
 
 /* change habbit section ends here   */
+/* bmi section starts here   */
+.bmicontent{
+    margin: 20px 0;
+}
+.subsection{
+    min-width: 487px;
+    background-color: rgb(34, 34, 34,0.5);
+    padding: 25px 0px;
+}
+.subsection h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+table, th, td {
+    border: 2px solid rgb(105, 105, 105);
+    border-collapse: collapse;
+  }
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+.bmicharttable{
+    margin-bottom: 20px;
+}
+form input{
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#select1{
+    width: 40%;
+    padding: 10px;
+}
+#select2{
+    width: 80.5%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+}
+/* bmi section ends here   */
 
 
 
@@ -204,6 +286,11 @@ left: -4%;
         font-family: 'Poppins', sans-serif;
         background-color: #000000;
         color: #ffffff;
+    }
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+     
     }
     .button:hover {
         background-color: #E6533C;
@@ -267,10 +354,53 @@ left: -4%;
     /* change habit section starts here    */
 .events{
     flex-direction: row;
+    justify-content: center;
 }
 
     
     /* change habit section ends here    */
+
+
+    /* extra mile section starts here  */
+    .extramilecontainer{
+       
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding-left: 3.5%;
+      
+       
+      }
+      .extramilecontent{
+        width: 40%;
+        }
+        .run{
+            width: 40%;
+        }
+    /* extra mile section ends here  */
+    /* bmi section starts here   */
+    .bmicontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .bmicalculation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+    /* bmi section ends here   */
 
 
 
